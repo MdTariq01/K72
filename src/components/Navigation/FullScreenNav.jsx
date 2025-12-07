@@ -182,6 +182,8 @@ import gsap from 'gsap'
 import React, { useContext, useRef } from 'react'
 import { NavBarContext } from '../../context/NavContext'
 import { useNavigate } from 'react-router-dom'
+import person1 from '../../assets/Images/AgencyPostImg/person1.jpg'
+import person2 from '../../assets/Images/AgencyPostImg/person2.jpg'
 
 const FullScreenNav = () => {
     const fullNavLinksRef = useRef(null)
@@ -320,15 +322,15 @@ const FullScreenNav = () => {
             <div className='moveLink absolute flex top-0 bg-[#d3fd50] text-black'>
                 <div className='flex items-center moveX'>
                     <h2 className='whitespace-nowrap  font-[font2] uppercase text-[8vw] leading-[7vw] mt-2 text-center'>Know Us</h2>
-                    <img className=' rounded-full shrink-0  lg:w-60 lg:h-29 h-15 w-32 object-cover' src="../../public/Images/AgencyPostImg/person1.jpg" alt="" />
+                    <img className=' rounded-full shrink-0  lg:w-60 lg:h-29 h-15 w-32 object-cover' src={person1} alt="" />
                     <h2 className='whitespace-nowrap font-[font2] uppercase text-[8vw] leading-[7vw] mt-2 text-center'>Know Us</h2>
-                    <img className='  rounded-full shrink-0 lg:w-60 lg:h-29 h-15 w-32 object-cover' src="../../public/Images/AgencyPostImg/person2.jpg" alt="" />
+                    <img className='  rounded-full shrink-0 lg:w-60 lg:h-29 h-15 w-32 object-cover' src={person2} alt="" />
                 </div>
                 <div className='flex items-center moveX'>
                     <h2 className='whitespace-nowrap  font-[font2] uppercase text-[8vw] leading-[7vw] mt-2 text-center'>Know Us</h2>
-                    <img className=' rounded-full shrink-0  lg:w-60 lg:h-29 h-15 w-32 object-cover' src="../../public/Images/AgencyPostImg/person1.jpg" alt="" />
+                    <img className=' rounded-full shrink-0  lg:w-60 lg:h-29 h-15 w-32 object-cover' src={person1} alt="" />
                     <h2 className='whitespace-nowrap font-[font2] uppercase text-[8vw] leading-[7vw] mt-2 text-center'>Know Us</h2>
-                    <img className='  rounded-full shrink-0 lg:w-60 lg:h-29 h-15 w-32 object-cover' src="../../public/Images/AgencyPostImg/person2.jpg" alt="" />
+                    <img className='  rounded-full shrink-0 lg:w-60 lg:h-29 h-15 w-32 object-cover' src={person2} alt="" />
                 </div>
             </div>
                     </div>

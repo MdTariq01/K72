@@ -1,5 +1,13 @@
 import React, { useRef } from 'react'
 import ProjectCard from '../components/Projects/ProjectCard'
+import thumbnail1 from '../assets/Images/thumbnail1.jpg'
+import thumbnail2 from '../assets/Images/thumbnail2.jpg'
+import thumbnail3 from '../assets/Images/thumbnail3.jpg'
+import thumbnail4 from '../assets/Images/thumbnail4.jpg'
+import thumbnail5 from '../assets/Images/thumbnail5.jpg'
+import thumbnail6 from '../assets/Images/thumbnail6.jpg'
+import thumbnail7 from '../assets/Images/thumbnail7.jpg'
+import thumbnail8 from '../assets/Images/thumbnail8.jpg'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -8,18 +16,18 @@ import Footer from '../components/footer/Footer'
 
 function Projects() {
   const projects = [{
-    image1: '../../public/Images/thumbnail1.jpg',
-    image2: '../../public/Images/thumbnail2.jpg'
+    image1: thumbnail1,
+    image2: thumbnail2
   }, {
-    image1: '../../public/Images/thumbnail3.jpg',
-    image2: '../../public/Images/thumbnail4.jpg'
+    image1: thumbnail3,
+    image2: thumbnail4
   }, {
-    image1: '../../public/Images/thumbnail5.jpg',
-    image2: '../../public/Images/thumbnail6.jpg'
+    image1: thumbnail5,
+    image2: thumbnail6
   } , {
-    image1: '../../public/Images/thumbnail7.jpg',
-    image2: '../../public/Images/thumbnail8.jpg'
-  }] 
+    image1: thumbnail7,
+    image2: thumbnail8
+  }]
 
  const container = useRef(null)
   gsap.registerPlugin(ScrollTrigger)

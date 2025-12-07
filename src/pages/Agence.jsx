@@ -3,6 +3,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React, { useRef } from "react";
 import Footer from "../components/footer/Footer";
+import person1 from '../assets/Images/AgencyPostImg/person1.jpg'
+import person2 from '../assets/Images/AgencyPostImg/person2.jpg'
+import person3 from '../assets/Images/AgencyPostImg/person3.jpg'
+import person5 from '../assets/Images/AgencyPostImg/person5.jpg'
 
 function Agence() {
   gsap.registerPlugin(ScrollTrigger)
@@ -28,11 +32,11 @@ function Agence() {
     'https://k72.ca/uploads/teamMembers/joel_480X640_3-480x640.jpg',
   ]
   const imageArray2 = [
-     '../../public/Images/AgencyPostImg/person1.jpg',
-    '../../public/Images/AgencyPostImg/person2.jpg',
-    '../../public/Images/AgencyPostImg/person3.jpg',
+     person1,
+    person2,
+    person3,
     'https://k72.ca/uploads/teamMembers/HugoJoseph_480x640-480x640.jpg',
-    '../../public/Images/AgencyPostImg/person5.jpg',
+    person5,
     'https://k72.ca/uploads/teamMembers/MyleneS_480x640-480x640.jpg',
     'https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg',
     'https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg',
