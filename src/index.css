@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(../public/Fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(../public/Fonts/Lausanne-500.woff2);
+}
+
+.moveX {
+  animation: moveanimation 10s linear infinite;
+}
+@keyframes moveanimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.all-links {
+  overflow: hidden;
+}
+
+.moveLink {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.moveLink-Contact {
+  transition: all ease 0.5s;
+}
+ 
+
+.link:hover .moveLink{
+  opacity: 1;
+}
